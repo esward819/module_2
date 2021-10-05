@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="heading">{{name}}</h1>
+<ul>
+{% for tech, x in teams.items %}
+{% if tech == name%}
+<li><b>{{ x.description }}<b></li>
+{% for member in x.team_members %}
+<li><b>{{ member }}<b></li>
+{% endfor %}
+{% endif%}
+</ul>
+
+{% endfor %}{% endblock content %}

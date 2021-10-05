@@ -1,0 +1,17 @@
+body {
+  background: lightskyblue;
+}
+.List {
+  background-color: magenta;
+  border-width: 1em;
+  border-style: ridge;
+  border-spacing: 1em;
+  border-color: navy;
+  text-align: center;
+  font-size: large;
+}
+.heading {
+  color: black;
+  text-align: center;
+  font-size: 5em;
+}
